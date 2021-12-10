@@ -1,0 +1,13 @@
+
+/*Navigation Bar Javascript*/
+
+/*Prevent dropdown menu from closing when click inside the form*/
+$(document).on("click", ".action-buttons .dropdown-menu", function(e){
+	e.stopPropagation();
+});
+/* Demo purposes only */
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.4",
+        "paypal/paypal-checkout-sdk": "1.0.1"
+    }
+}
