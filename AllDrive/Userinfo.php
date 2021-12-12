@@ -11,7 +11,7 @@
     {
 
         // Fetching JSON
-        $req_url = 'https://v6.exchangerate-api.com/v6/0820f7f6c3d3b40606fa7500/latest/LKR';
+        $req_url = 'https://v6.exchangerate-api.com/v6//latest/LKR'; // Add an API key after v6/ from exchangerate-api.com.
         $response_json = file_get_contents($req_url);
 
         // Continuing if we got a result
@@ -292,7 +292,7 @@
             </footer>
         </div>
         <script
-        src="https://www.paypal.com/sdk/js?client-id=AVREeYMBt8XIn7aeaaH6OEUMeiWcveqNgpwWzeOCq0YIJAiKomOXLI4--U8EVTRM6rdFRfzfuOeRDKxL&disable-funding=credit,card">
+        src="https://www.paypal.com/sdk/js?client-id=-funding=credit,card"> // Add paypal sandbox account API signature after client-id= and before -funding=credit.
         </script>
         <script>
             paypal.Buttons({
