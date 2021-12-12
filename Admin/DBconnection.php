@@ -1,5 +1,5 @@
 <?php
-        $host = "localhost:3307";
+        $host = "localhost";
         $dbusername = "root";
         $dbpassword = "";
         $dbname = "alldrivedb";
